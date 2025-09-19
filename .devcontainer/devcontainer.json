@@ -1,0 +1,13 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18-bullseye",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
